@@ -1,6 +1,7 @@
 /* Desktop viewports */
 
 @media only screen and (min-aspect-ratio: 1 / 1) and (max-aspect-ratio: 4 / 3) {
+    html { background-color: red; }
     @media (min-width: 2000px) { }
 
     @media (max-width: 2000px) { }
@@ -13,6 +14,7 @@
 }
 
 @media only screen and (min-aspect-ratio: 4 / 3) and (max-aspect-ratio: 8 / 5) {
+    html { background-color: blue; }
     @media (min-width: 2000px) { }
 
     @media (max-width: 2000px) { }
@@ -25,6 +27,7 @@
 }
 
 @media only screen and (min-aspect-ratio: 8 / 5) and (max-aspect-ratio: 16 / 9) {
+    html { background-color: green; }
     @media (min-width: 2000px) { }
 
     @media (max-width: 2000px) { }
@@ -37,6 +40,7 @@
 }
 
 @media only screen and (min-aspect-ratio: 16 / 9) and (max-aspect-ratio: 21 / 9) {
+    html { background-color: yellow; }
     @media (min-width: 2000px) { }
 
     @media (max-width: 2000px) { }
@@ -52,27 +56,27 @@
 
 /* Devices: Not found in any modern mainstream device but still useful */
 @media only screen and (aspect-ratio: 9 / 16) {
-
+    html { background-color: purple; }
 }
 
 /* Devices: iPhone 5/SE, Kindle Fire */
 @media only screen and (min-aspect-ratio: 9 / 16) and (max-aspect-ratio: 4 / 5) {
-
+    html { background-color: orange; }
 }
 
 /* Devices: iPhone, Samsung, Pixel */
 @media only screen and (min-aspect-ratio: 9 / 19.5) and (max-aspect-ratio: 9 / 16) {
-
+    html { background-color: pink; }
 }
 
 /* Devices: Samsung */
 @media only screen and (min-aspect-ratio: 9 / 21) and (max-aspect-ratio: 9 / 19.5) {
-
+    html { background-color: cyan; }
 }
 
 /* Tablet viewports */
 
 /* Devices: iPad */
 @media only screen and (min-aspect-ratio: 16 / 24) and (max-aspect-ratio: 3 / 4) {
-
+    html { background-color: maroon; }
 }
